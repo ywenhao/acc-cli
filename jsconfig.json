@@ -3,8 +3,6 @@
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "Node",
-    "baseUrl": ".",
-    "outDir": ".",
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
@@ -14,7 +12,5 @@
     "importsNotUsedAsValues": "error",
     "isolatedModules": true,
     "lib": ["ESNext"]
-  },
-  "exclude": ["node_modules", "dist"],
-  "include": ["src/**/*.ts", "src/**/*.vue"]
+  }
 }
